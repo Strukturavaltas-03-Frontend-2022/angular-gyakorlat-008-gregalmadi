@@ -6,7 +6,7 @@ import { EventsListComponent } from './page/events-list/events-list.component';
 const routes: Routes = [
   {
     path: '',
-    component: EventsListComponent
+    component: EventsListComponent,
   },
   {
     path: 'event/:id',
@@ -16,6 +16,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

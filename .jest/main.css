@@ -1,9 +1,7 @@
 
 
 .error-message {
-  font-style: italic;
-  font-size: 0.8em;
-  color: #9b0404;
+  color: red;
 }
 
 /* You can add global styles to this file, and also import other style files */
