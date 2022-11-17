@@ -35,6 +35,7 @@ export class EventEditorComponent implements OnInit {
   onUpdate(eventForm: NgForm, event: any) {
     if (event.id === 1001) {
       let newEvent = new Event();
+      newEvent = event;
       newEvent.id = this.maxEventId + 1;
       this.eventService
         .create(newEvent)
